@@ -76,6 +76,7 @@ body{
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #ffffff;
+    text-align: center;
 }
 .button-text:hover,
 .button-text:focus{
