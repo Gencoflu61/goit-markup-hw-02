@@ -35,7 +35,6 @@ body{
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 1.5;
-   
     color: #434455;
     background-color: #ffffff;
 }
@@ -89,7 +88,15 @@ header{
     line-height: 1.17;  
     
 }
-.body-small:hover{
+.body-small{
+    font-style: normal;
+    color: #434455;
+    letter-spacing: 3%;
+
+}
+
+.body-small:hover,
+.body-small:active{
     color: #404bbf;
 }
 .body-medium:hover{
