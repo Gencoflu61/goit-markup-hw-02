@@ -1,46 +1,46 @@
-.sec-title,.sec-title2{
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.sec-title,.section-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     letter-spacing: 0.02em;
     text-decoration: underline;
     text-align: center;
 }
-.sec-text{
-    background-color: #2e2f42;
-    text-align: center;
+header{
+    background-color: #e7e9fc;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;  
 }
-.sec-title{
-    font-size: 56px; 
-    line-height: 1.07;
-    color:#ffffff;
-    
-    
-}
-.sec-title2{
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2e2f42;
-    text-align: center; 
-    text-transform: capitalize;
 
-}
-.features-title{
-    font-size: 20px;
+/* nav bölümü */
+.nav-link-body-medium{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color:#2e2f42;
-}
-.feature-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
-.port-item {
-    background-color: #ffffff; 
-    text-align: center;
+.nav-link-body-medium:hover,
+.nav-link-body-medium:focus{
+    color: #404bbf;
+}
+.nav-link-body-medium:active{
+    color: #404bbf;
+    text-decoration: underline;
 }
 .logo-link{
     font-family: "Raleway", sans-serif;
@@ -56,23 +56,35 @@
 .logo-link .logo-studio{
     color: #2e2f42;
 }
-.studio2{
-    color: #f4f4fd;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    line-height: 1.17;  
-    text-transform: uppercase
-
+/*address bölümü*/
+.address-info{
+    font-style: normal;
 }
-.nav-link-body-medium{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+.address-link-body-small{
+    font-style: normal;
+    color: #434455;
+    letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    text-decoration: none;
+
+}
+
+.address-link-body-small:hover,
+.address-link-body-small:active{
+    color: #404bbf;
+}
+/*Section 1.bölüm*/
+.sec-text{
+    background-color: #2e2f42;
+    text-align: center;
+}
+.sec-title{
+    font-size: 56px; 
+    line-height: 1.07;
+    color:#ffffff;
+    
+    
 }
 .button-text{
     font-family: "Roboto", sans-serif;
@@ -90,48 +102,42 @@
     color: #ffffff;
     cursor: pointer;
 }
+/*Section 2-3-4 bölüm*/
 
-header{
-    background-color: #e7e9fc;
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    line-height: 1.17;  
-}
-.addrees-info{
-    font-style: normal;
-}
-.address-link-body-small{
-    font-style: normal;
-    color: #434455;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    text-align: center; 
+    text-transform: capitalize;
 
 }
-
-.address-link-body-small:hover,
-.address-link-body-small:active{
-    color: #404bbf;
-}
-.nav-link-body-medium:hover{
-    color: #404bbf;
-}
-.nav-link-body-medium:active{
-    color: #404bbf;
-    text-decoration: underline;
-}
-.sec-text2{
+.section-text{
     background-color: #f4f4fd;
 }
-.team-member {
+.features-title{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color:#2e2f42;
+}
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team-members {
     background-color: #ffffff; 
     text-align: center; 
 }
-
+.port-item {
+    background-color: #ffffff; 
+    text-align: center;
+}
+/*Footer bölümü*/
 .page-footer {
     background-color: #2e2f42;
     padding: 20px;
@@ -145,8 +151,8 @@ header{
     line-height: 1.17;
     color: #4d5ae5; 
     text-decoration: none; 
+    text-transform: uppercase;
 }
-
 .footer-logo-part {
     color: #f4f4fd; 
 }
@@ -159,3 +165,5 @@ header{
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+
+
