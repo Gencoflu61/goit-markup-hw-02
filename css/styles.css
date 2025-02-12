@@ -67,7 +67,7 @@ header{
 
 }
 .address-link-body-small:hover,
-.address-link-body-small:active{
+.address-link-body-small:focus{
     color: #404bbf;
 }
 
