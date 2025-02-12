@@ -38,7 +38,10 @@ header{
 .nav-link-body-medium:focus{
     color: #404bbf;
 }
-
+.nav-link-body-medium:active{
+    color: #404bbf;
+    text-decoration: underline;
+}
 .logo-link{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -67,10 +70,12 @@ header{
 
 }
 .address-link-body-small:hover,
+.address-link-body-small:active{
+    color: #404bbf;
+}
 .address-link-body-small:focus{
     color: #404bbf;
 }
-
 /*Section 1.bölüm*/
 .sec-text{
     background-color: #2e2f42;
@@ -156,5 +161,3 @@ header{
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-
-
