@@ -13,7 +13,6 @@ body{
     font-weight: 700;
     letter-spacing: 0.02em;
     text-decoration: underline;
-    text-align: center;
 }
 header{
     background-color: #e7e9fc;
@@ -69,15 +68,16 @@ header{
     text-decoration: none;
 
 }
-
 .address-link-body-small:hover,
 .address-link-body-small:active{
+    color: #404bbf;
+}
+.address-link-body-small:focus{
     color: #404bbf;
 }
 /*Section 1.bölüm*/
 .sec-text{
     background-color: #2e2f42;
-    text-align: center;
 }
 .sec-title{
     font-size: 56px; 
@@ -108,7 +108,6 @@ header{
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
-    text-align: center; 
     text-transform: capitalize;
 
 }
@@ -131,17 +130,14 @@ header{
 }
 .team-members {
     background-color: #ffffff; 
-    text-align: center; 
 }
 .port-item {
     background-color: #ffffff; 
-    text-align: center;
 }
 /*Footer bölümü*/
 .page-footer {
     background-color: #2e2f42;
     padding: 20px;
-    text-align: center;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
